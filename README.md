@@ -3,10 +3,13 @@
 
 Hice un simulador de órbitas de los planetas Mercurio, Venus y Marte. Acá está:
 
-[https://github.com/jmcabo/planets/releases/download/releaseV3/canvas_planets_v3.html](https://github.com/jmcabo/planets/releases/download/releaseV3/canvas_planets_v3.html)
-
 https://zenstep.com.ar/files/canvas_planets_v3.html
 
+o en, para bajar:
+
+https://github.com/jmcabo/planets/releases/download/releaseV3/canvas_planets_v3.html
+y el fondo en:
+https://github.com/jmcabo/planets/releases/download/releaseV3/IMG-20200121-WA0046_fotoCieloJanis.jpg
 
 Sirve para ver conjunciones, como las de 1981 o 2019 o la que va a haber en Enero 2026.
 
