@@ -13,6 +13,8 @@ y el fondo en:
 
 https://github.com/jmcabo/planets/releases/download/releaseV3/IMG-20200121-WA0046_fotoCieloJanis.jpg
 
+https://jmcabo.github.io/planets/
+
 Sirve para ver conjunciones, como las de 1981 o 2019 o la que va a haber en Enero 2026.
 
 También para ver equidistancias.
