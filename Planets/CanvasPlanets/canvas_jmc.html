@@ -1,0 +1,103 @@
+<doctype html>
+<html>
+
+<!-- Primer programita para Iara, leccion 1. JMC 2025. -->
+
+
+<script>
+
+
+    function onCanvasKeyDown(ev) {
+        //debug: console.log(ev);
+        //if (ev.keyCode == KEY_DOWN) {
+        //    racketY += racketStep;
+        //    return false;
+        //} else if (ev.keyCode == KEY_UP) {
+        //    racketY -= racketStep;
+        //    return false;
+        //}
+        return true;
+    }
+
+    function linea(context, x, y, x2, y2) {
+        //Línea:
+        context.beginPath();
+        context.moveTo(x, y);
+        context.lineTo(x2, y2);
+        context.stroke();
+    }
+
+    //function toHex(v) {
+    //    if v
+    //}
+
+    function draw() {
+        var ballX = 100;
+        var ballY = 100;
+        var ballWidth = 25;
+
+        //console.log("Testing01"); //debug!
+
+        var canvas = document.getElementById("game");
+        var context = canvas.getContext("2d");
+
+        var i = 0;
+        var STEPS = 2000;       //pasos totales
+        var INCREMENT = 0.02;   //pasos ángulo
+        var j = 0;
+        var centerX = 200;
+        var centerY = 200;
+        var radioMaximo = 180;
+        while (j < STEPS) {
+            var radio = radioMaximo * j / STEPS;
+            linea(context, centerX + radio * Math.cos(i), centerY + radio * Math.sin(i),
+                centerX + radio * Math.cos(i + INCREMENT), centerY + radio * Math.sin(i + INCREMENT));
+            //Gradiente de colores:
+            context.lineWidth = 2;
+            context.strokeStyle = "#" + (156 - 156 * j / STEPS + 100).toString(16)
+                + "30"
+                + (156 * j / STEPS + 100).toString(16);
+            //Número de paso:
+            i += INCREMENT;
+            if (i > 2 * 3.14159) {
+                i = 0;  //Se completó una vuelta
+            }
+            j += 1;
+        }
+        linea(context, 10, 10, 30, 30);
+
+        //Circulito:
+        context.beginPath();
+        context.arc(ballX, ballY, ballWidth, 0, 2*Math.PI);
+        context.fillStyle = "pink";
+        context.stroke();
+        context.fill();
+
+        return false;
+    }
+
+    function onPageLoad(ev) {
+        draw();
+    }
+
+</script>
+
+
+<body onkeydown="return onCanvasKeyDown(event);"
+      onload="return onPageLoad(event);">
+
+
+<canvas id="game" onkeydown="return onCanvasKeyDown(event);"
+    width="800" height="500"
+    style="width: 800px; height: 500px; border: solid;">
+</canvas>
+
+
+</body>
+
+</html>
+
+
+
+
+

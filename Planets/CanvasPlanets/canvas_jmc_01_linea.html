@@ -1,0 +1,47 @@
+<doctype html>
+<html>
+
+<!-- Primer programita para Iara, leccion 1. JMC 2025. -->
+
+
+<script>
+
+    function linea(context, x, y, x2, y2) {
+        //Línea:
+        context.beginPath();
+        context.moveTo(x, y);
+        context.lineTo(x2, y2);
+        context.stroke();
+    }
+
+    function draw() {
+
+        var canvas = document.getElementById("game");
+        var context = canvas.getContext("2d");
+
+        linea(context, 10, 10, 30, 30);
+
+        return false;
+    }
+
+    function onPageLoad(ev) {
+        draw();
+    }
+
+</script>
+
+
+<body onload="return onPageLoad(event);">
+
+
+<canvas id="game" onkeydown="return onCanvasKeyDown(event);"
+    width="800" height="500"
+    style="width: 800px; height: 500px; border: solid;">
+</canvas>
+
+
+</body>
+
+</html>
+
+

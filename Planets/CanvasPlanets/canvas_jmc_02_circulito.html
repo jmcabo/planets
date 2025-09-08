@@ -1,0 +1,61 @@
+<doctype html>
+<html>
+
+<!-- Primer programita para Iara, leccion 2. JMC 2025. -->
+
+
+<script>
+
+
+    function linea(context, x, y, x2, y2) {
+        //Línea:
+        context.beginPath();
+        context.moveTo(x, y);
+        context.lineTo(x2, y2);
+        context.stroke();
+    }
+
+    function draw() {
+
+        var canvas = document.getElementById("game");
+        var context = canvas.getContext("2d");
+
+        //Línea:
+        linea(context, 10, 10, 30, 30);
+
+        //Variables para el circulito:
+        var ballX = 100;
+        var ballY = 100;
+        var ballWidth = 25;
+
+        //Circulito:
+        context.beginPath();
+        context.arc(ballX, ballY, ballWidth, 0, 2*Math.PI);
+        context.fillStyle = "pink";
+        context.stroke();
+        context.fill();
+
+        return false;
+    }
+
+    function onPageLoad(ev) {
+        draw();
+    }
+
+</script>
+
+
+<body onload="return onPageLoad(event);">
+
+
+<canvas id="game" onkeydown="return onCanvasKeyDown(event);"
+    width="800" height="500"
+    style="width: 800px; height: 500px; border: solid;">
+</canvas>
+
+
+</body>
+
+</html>
+
+

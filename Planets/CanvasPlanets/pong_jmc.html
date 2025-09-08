@@ -1,0 +1,211 @@
+<doctype html>
+<html>
+<head>
+<title> Bad attempt at making a Pong game </title>
+<style>
+    .h1color1 {
+        color: #8080ff;
+    }
+    .h1color2 {
+        color: #80ff80;
+    }
+    .h1color3 {
+        color: #ff8080;
+    }
+    .h1color4 {
+        color: #ff80ff;
+    }
+    .h1color5 {
+        color: #c0c010;
+    }
+</style>
+<script type="text/javascript">
+    var isStarted = false;
+    var iteratorHandle = 0;
+    var iteration = 0;
+    var ballX = 100;
+    var ballY = 100;
+    var dirX = 1;
+    var dirY = 1;
+    var step = 3;
+    var ballWidth = 5;
+    var KEY_LEFT = 37;
+    var KEY_UP = 38;
+    var KEY_RIGHT = 39;
+    var KEY_DOWN = 40;
+    var racketX = 250;
+    var racketY = 100;
+    var racketWidth = 4;
+    var racketHeight = 25;
+    var racketStep = 7;
+    var score = 0;
+    var coins = 1;
+    var isLost = false;
+
+
+    function onStart() {
+        if (isStarted) {
+            return false;
+        }
+
+        startGame();
+
+        return true;
+    }
+
+    function onStop() {
+        stopGame();
+    }
+
+    function stopGame() {
+        if (isStarted) {
+            clearInterval(iteratorHandle);
+        }
+        isStarted = false;
+        iteratorHandle = 0;
+    }
+
+    function startGame() {
+        isLost = false;
+        coins = 3;
+        racketY = 100;
+        score = 0;
+
+        var canvas = document.getElementById("game");
+        var context = canvas.getContext("2d");
+        //debug:
+        //context.moveTo(0,0);
+        //context.lineTo(320, 200);
+        //context.stroke();
+
+        context.beginPath();
+        context.arc(ballX, ballY, ballWidth, 0, 2*Math.PI);
+        context.stroke();
+
+
+        //Repeat every 200ms:
+        isStarted = true;
+        iteratorHandle = setInterval(function () {
+            gameIteration();
+        }, 20);
+
+        canvas.focus();
+    }
+
+    function gameIteration() {
+        ++iteration;
+
+        var canvas = document.getElementById("game");
+        var context = canvas.getContext("2d");
+
+        //Background:
+        context.beginPath();
+        context.rect(0, 0, canvas.width, canvas.height);
+        context.fillStyle = "#F1F1F1";
+        context.fill();
+
+        //Ball, next position:
+        ballX += dirX * step;
+        ballY += dirY * step;
+
+        //Walls:
+        if (ballX >= canvas.width - ballWidth) {
+            dirX = -1 * dirX;
+
+            //Coin lost:
+            coins -= 1;
+            if (coins <= 0) {
+                isLost = true;
+                gameIteration();
+                stopGame();
+            }
+        }
+        if (ballX <= 0) {
+            dirX = 1;
+        }
+        if (ballY >= canvas.height - ballWidth) {
+            dirY = -1 * dirY;
+        }
+        if (ballY <= 0) {
+            dirY = 1;
+        }
+
+        if (!isLost) {
+            //Racket:
+            if (ballX >= (racketX - 3) 
+                && ballY < racketY + racketHeight
+                && ballY > racketY - racketHeight)
+            {
+                //Bounce off racket:
+                dirX = -1;
+                ballX -= step*1.8;
+                score += 10;
+            }
+
+            //Draw the ball:
+            context.beginPath();
+            context.arc(ballX, ballY, ballWidth, 0, 2*Math.PI);
+            context.fillStyle = "orange";
+            context.stroke();
+            context.fill();
+
+            //Draw the racket:
+            context.beginPath();
+            context.rect(racketX - racketWidth, racketY - racketHeight, racketWidth, racketHeight);
+            context.stroke();
+            context.fill();
+
+            //Draw score
+            context.font = "10px Arial";
+            context.fillText("SCORE: " + score, 20, 20);
+            var coinsText = "";
+            for (var i=0; i < coins; ++i) {
+                coinsText += "|";
+            }
+            context.fillText(coinsText, 20, 32);
+        } else {
+            var lostAllCoinsText = "Lost all coins";
+            context.fillStyle = "blue";
+            context.font = "24px Arial";
+            context.font.fontWeight = "bold";
+            var measureWidth = context.measureText(lostAllCoinsText).width;
+            context.fillText(lostAllCoinsText, (canvas.width - measureWidth)/2, 70);
+
+            context.font = "10px Arial";
+            context.fillText("SCORE: " + score, 20, 20);
+        }
+    }
+
+    function onCanvasKeyDown(ev) {
+        //debug: console.log(ev);
+        if (ev.keyCode == KEY_DOWN) {
+            racketY += racketStep;
+            return false;
+        } else if (ev.keyCode == KEY_UP) {
+            racketY -= racketStep;
+            return false;
+        }
+        return true;
+    }
+</script>
+</head>
+<body onkeydown="return onCanvasKeyDown(event);">
+
+<h1> 
+    <span class="h1Color1"> Bad </span> 
+    <span class="h1Color2"> attempt <span>
+    <span class="h1Color3"> at <span> 
+    <span class="h1Color4"> making<span>
+    <span class="h1Color5"> a Pong game </span>
+    <span class="h1Color3"> (with HTML5) </span>
+</h1>
+
+<canvas id="game" onkeydown="return onCanvasKeyDown(event);" style="width: 320px; height: 180px; border: solid;"></canvas>
+
+<br>
+
+<button onclick="return onStart();" >START</button>
+<button onclick="return onStop();" >STOP</button>
+
+</body>
+</html>
