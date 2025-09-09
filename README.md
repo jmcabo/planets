@@ -3,7 +3,7 @@ Copyright (C) Juan Manuel Cabo, 2025. Todos los derechos reservados.
 
 (Planets. Check planet conjunctions transits and equidistances.)
 
-![Ejemplo en 2025-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_072914.png)
+![Ejemplo en 2024-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_093039_2024_oct_28.png)
 
 Tomarse todo lo que sigue con humor!! :-) :-) Es solo un programita HTML (código fuente javascript autocontenido en el html), que tardé 2 días en desarrollar (y que quise programar desde los 90s que siempre quise visualizar las órbitas en un programita gráfico y lo postponía como ejercicio gráfico.).
 
