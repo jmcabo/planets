@@ -30,12 +30,15 @@ Alrededor del día 8 de Enero 2026, 2026-01-08, se van a alinear Marte y Venus j
 DELIRIO A CONTINUACIÓN:
 
 La mente ve el pasado de su robot biológico, y actúa en su presente, eligiendo a qué prestar atención. Si estamos absortos en la lectura de un libro, ignorando la radio o la lluvia, prestamos justo atención a la radio o la lluvia cuando algo nos llama la atención (un nombre) o suena un rayo.
+
 Quizás la única manera de retrasar una señal que va a la velocidad de la luz es loopearla por los planetas, por algo bien distante. Quizás sus núcleos de hierro hacen de espejo para la señal. Quizás por eso dicen que las mujeres son de Venus, y los hombres de Marte (y Mercurio serán los jóvenes). Quizás los bebés nacen con las mismas habilidades que necesitarían los paralíticos para empezar a moverse. Quizás esa es la naturaleza de buddha, o quizás estoy mezclando todo :) 
 Da para novela de ciencia ficción.
+
 En fin, daba para hacer un grafiquito. Hice este simulador con detector de equidistancias entre Venus y Marte y con detector de alineamientos tras o enfrente del Sol (baja SNR) en 2 días de programar sin parar mucho. Era fácil, la NASA provee gratis las coordenadas de los planetas en marco de referencia geocéntrico llamado J2000.
 
-Hay algunos temas de salud física (y también de salud mental) que mucha gente experimenta con un período de 2 años, modulado en otros períodos de 4 y 8 años. Estas son las distancias ejemplo en 2024 y en 2025, los entrecruzamientos son cuando 2 planetas están a los mismos minutos luz (algo se pegotea cuando tienen la misma diferencia de tiempo. Se pegotean las almas cuando piensan lo mismo? Se pegotean hasta los linfocitos, que parecen tener vida propia? Telepáticamente? Quien sabe, es un delirio. Pero dicen que unos son de Venus y los otros de Marte. Cuando la distancia es 10 minutos, el roundtrip es 20minutos. Cuando Venus está a 10m10s luz y Mercurio está a 10m20s luz, hay solo 10 segundos de diferencia entre ambos):
+Hay algunos temas de salud física (y también de salud mental) que mucha gente experimenta con un período de 2 años, modulado en otros períodos de 4 y 8 años. Estas son las distancias ejemplo en 2024 y en 2025, los entrecruzamientos en las curvas de colores a continuación son las fechas en cuando 2 planetas están a los mismos minutos luz (algo se pegotea cuando tienen la misma diferencia de tiempo. Se pegotean las almas cuando piensan lo mismo? Se pegotean hasta los linfocitos, que parecen tener vida propia? Telepáticamente? Quien sabe, es un delirio. Pero dicen que unos son de Venus y los otros de Marte. Cuando la distancia es 10 minutos, el roundtrip es 20minutos. Cuando Venus está a 10m10s luz y Mercurio está a 10m20s luz, hay solo 10 segundos de diferencia entre ambos. Qué sucede cuando dos personas piensan la misma idea a 10 segundos de distancia si son de distintos loopeamientos? (durante varias horas seguidas varios días seguidos?. NO LO HAGAN NUNCA!. Lo que a nuestras computadoras cuesta O(N²) calcular que es ver si dos elementos entre N coinciden, al Universo le sale gratis en complejidad temporal, es otro tipo de computadora?. Fin del deliriop :)
 
+Justamente, Marte se aleja y vuelve cada 2 años:
 
 ![Gráfico distancias 2024](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2024.jpg)
 
@@ -44,6 +47,18 @@ Hay algunos temas de salud física (y también de salud mental) que mucha gente 
 ![Gráfico distancias 2026](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2026.jpg)
 
 Delirio:  Qué va a pasar el 2026-01-08 cuando se alínien Marte y Venus detrás del Sol? Si mi teoría divertidamente delirante fuera cierta, se desloopearían tal vez de esos planetas y se conectarían mejor a sí mismos, dejando de desparramarse en el espacio tiempo, pero quedando cerrados en sí mismos.
+
+Advertencia (Idea para historia ciencia ficción): Si mucha gente hace cadenita de oración de loopeos pasando por Marte cuando este se encuentra más alejado, cada uno suma 40 minutos de delay. Pero esto es peligroso, y podría ver el pasado de una mente (en algún aspecto, tal vez emocional, tal vez sensorial o de humor, bienestar o malestar), si fuera cierto que se pueden sincronizar pensando lo mismo, durante horas, días y meses. El problema de eso, es que imaginando una cadena de 10 años de duración, cualquier mente escuchando en ese HUB, podría saltar a cualquier otra mente y mamarrachar el espacio tiempo. Sería impredecible a dónde saltan, porque no todos los que oyen pueden hablar (depende de si están antes o después en la cadenita). Me pregunto si siempre siempre siempre esos saltos tienen de efecto pretérito, causar luego el salto futuro hacia atrás una vez más, cerrando la cinta de Moebius.
+Esta puede ser la verdadera caja de Pandora.
+
+Y las consecuencias de semejantes cadenitas, es que quizás todas esas almas sean la misma alma, con los mismos qualia y significantes, saltando unas a otras, viviendo una vida que nunca avanza de este siglo. La misma alma viviendo 8mil millones de vidas, que nunca puede avanzar del siglo. 
+
+Suena terrible. Mejor ni lo intenten. 
+
+La cinta de Moebius esa, sería dificilísima de cerrar. O tal vez no, si tiene algunos criterios de monotonía estricta, y orden entre antecesor y sucesor (parent -> child), pero no creo que pueda haber disciplina o predictibilidad en eso.
+
+El fin de la historia registrada, puede ser simplemente reconocer que no hace falta loopear a nadie, que en esas fechas de mala salud uno debe guardarse, no conectar, y que lo único que empeora con la edad es la cantidad de gente que a uno lo conoce y forma la cadenita. Que debería disolverse en vez de uno borrarse. (Fin idea para ciencia ficción).
+
 
 Resumen links:
 
