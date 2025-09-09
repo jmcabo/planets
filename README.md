@@ -20,6 +20,8 @@ Fechas en ls que pasa eso son por ejemplo 2024-09 y 2025-10 (septiembre 2024 y s
 Las rayas magenta entre planetas indican equidistancias dentro del umbral (0.3 AU por default, que son 2.5 minutos luz).
 Los conos indican cercanía al Sol, y que el Sol está por alterar nuestra capacidad de resolver esos planetas (aumentando escala y offset, es decir, brillo y contraste. Primero se aumenta la ganancia al verlos, luego se pierden, luego pueden reaparecer a los 3 días. Por ejemplo ahora 2025-09-09, Mercurio está por transitar atrás del Sol, el día más alineado es 2025-09-12 y 2025-09-13 viernes y sábado).
 
+Alrededor del día 8 de Enero 2026, 2026-01-08, se van a alinear Marte y Venus justo detrás del Sol. Esto ya pasó por ejemplo en 1968-06-22 como se puede ver con mi simulador.
+
 Resumen links:
 
 Hice un simulador de órbitas de los planetas Mercurio, Venus y Marte. Acá está:
