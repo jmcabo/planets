@@ -37,11 +37,11 @@ En fin, daba para hacer un grafiquito. Hice este simulador con detector de equid
 Hay algunos temas de salud física (y también de salud mental) que mucha gente experimenta con un período de 2 años, modulado en otros períodos de 4 y 8 años. Estas son las distancias ejemplo en 2024 y en 2025, los entrecruzamientos son cuando 2 planetas están a los mismos minutos luz (algo se pegotea cuando tienen la misma diferencia de tiempo. Se pegotean las almas cuando piensan lo mismo? Se pegotean hasta los linfocitos, que parecen tener vida propia? Telepáticamente? Quien sabe, es un delirio. Pero dicen que unos son de Venus y los otros de Marte. Cuando la distancia es 10 minutos, el roundtrip es 20minutos. Cuando Venus está a 10m10s luz y Mercurio está a 10m20s luz, hay solo 10 segundos de diferencia entre ambos):
 
 
-[Gráfico distancias 2024](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2024.jpg)
+![Gráfico distancias 2024](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2024.jpg)
 
-[Gráfico distancias 2025](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2025.jpg)
+![Gráfico distancias 2025](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2025.jpg)
 
-[Gráfico distancias 2026](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2026.jpg)
+![Gráfico distancias 2026](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2026.jpg)
 
 Delirio:  Qué va a pasar el 2026-01-08 cuando se alínien Marte y Venus detrás del Sol? Si mi teoría divertidamente delirante fuera cierta, se desloopearían tal vez de esos planetas y se conectarían mejor a sí mismos, dejando de desparramarse en el espacio tiempo, pero quedando cerrados en sí mismos.
 
