@@ -19,14 +19,6 @@ Fechas en ls que pasa eso son por ejemplo 2024-09 y 2025-10 (septiembre 2024 y s
 
 Qué relación existe?
 
-DELIRIO A CONTINUACIÓN:
-
-La mente ve el pasado de su robot biológico, y actúa en su presente, eligiendo a qué prestar atención. Si estamos absortos en la lectura de un libro, ignorando la radio o la lluvia, prestamos justo atención a la radio o la lluvia cuando algo nos llama la atención (un nombre) o suena un rayo.
-Quizás la única manera de retrasar una señal que va a la velocidad de la luz es loopearla por los planetas, por algo bien distante. Quizás sus núcleos de hierro hacen de espejo para la señal. Quizás por eso dicen que las mujeres son de Venus, y los hombres de Marte (y Mercurio serán los jóvenes). Quizás los bebés nacen con las mismas habilidades que necesitarían los paralíticos para empezar a moverse. Quizás esa es la naturaleza de buddha, o quizás estoy mezclando todo :) 
-Da para novela de ciencia ficción.
-En fin, daba para hacer un grafiquito. Hice este simulador con detector de equidistancias entre Venus y Marte y con detector de alineamientos tras o enfrente del Sol (baja SNR) en 2 días de programar sin parar mucho. Era fácil, la NASA provee gratis las coordenadas de los planetas en marco de referencia geocéntrico llamado J2000.
-
-
 ![Ejemplo en 2025-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_072914.png)
 
 
@@ -34,6 +26,19 @@ Las rayas magenta entre planetas indican equidistancias dentro del umbral (0.3 A
 Los conos indican cercanía al Sol, y que el Sol está por alterar nuestra capacidad de resolver esos planetas (aumentando escala y offset, es decir, brillo y contraste. Primero se aumenta la ganancia al verlos, luego se pierden, luego pueden reaparecer a los 3 días. Por ejemplo ahora 2025-09-09, Mercurio está por transitar atrás del Sol, el día más alineado es 2025-09-12 y 2025-09-13 viernes y sábado).
 
 Alrededor del día 8 de Enero 2026, 2026-01-08, se van a alinear Marte y Venus justo detrás del Sol. Esto ya pasó por ejemplo en 1968-06-22 como se puede ver con mi simulador.
+
+DELIRIO A CONTINUACIÓN:
+
+La mente ve el pasado de su robot biológico, y actúa en su presente, eligiendo a qué prestar atención. Si estamos absortos en la lectura de un libro, ignorando la radio o la lluvia, prestamos justo atención a la radio o la lluvia cuando algo nos llama la atención (un nombre) o suena un rayo.
+Quizás la única manera de retrasar una señal que va a la velocidad de la luz es loopearla por los planetas, por algo bien distante. Quizás sus núcleos de hierro hacen de espejo para la señal. Quizás por eso dicen que las mujeres son de Venus, y los hombres de Marte (y Mercurio serán los jóvenes). Quizás los bebés nacen con las mismas habilidades que necesitarían los paralíticos para empezar a moverse. Quizás esa es la naturaleza de buddha, o quizás estoy mezclando todo :) 
+Da para novela de ciencia ficción.
+En fin, daba para hacer un grafiquito. Hice este simulador con detector de equidistancias entre Venus y Marte y con detector de alineamientos tras o enfrente del Sol (baja SNR) en 2 días de programar sin parar mucho. Era fácil, la NASA provee gratis las coordenadas de los planetas en marco de referencia geocéntrico llamado J2000.
+
+Hay algunos temas de salud física (y también de salud mental) que mucha gente experimenta con un período de 2 años, modulado en otros períodos de 4 y 8 años. Estas son las distancias ejemplo en 2024 y en 2025, los entrecruzamientos son cuando 2 planetas están a los mismos minutos luz:
+
+
+
+
 
 Resumen links:
 
