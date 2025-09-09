@@ -14,7 +14,7 @@ Me ayudaron a hacer este programa las sugerencias y presiones de amigos de la co
 Fechas en ls que pasa eso son por ejemplo 2024-09 y 2025-10 (septiembre 2024 y septiembre 2025).
 
 
-[Ejemplo en 2025-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_072914.png)
+![Ejemplo en 2025-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_072914.png)
 
 
 Resumen links:
