@@ -23,7 +23,7 @@ Qué relación existe?
 
 
 Las rayas magenta entre planetas indican equidistancias dentro del umbral (0.3 AU por default, que son 2.5 minutos luz).
-Los conos indican cercanía al Sol, y que el Sol está por alterar nuestra capacidad de resolver esos planetas (aumentando escala y offset, es decir, brillo y contraste. Primero se aumenta la ganancia al verlos, luego se pierden, luego pueden reaparecer a los 3 días. Por ejemplo ahora 2025-09-09, Mercurio está por transitar atrás del Sol, el día más alineado es 2025-09-12 y 2025-09-13 viernes y sábado).
+Los conos indican cercanía al Sol, y que el Sol está por alterar nuestra capacidad de resolver esos planetas (aumentando escala y offset, es decir, brillo y contraste). Primero se aumenta la ganancia al verlos, luego se pierden, luego pueden reaparecer a los 3 días. Por ejemplo ahora 2025-09-09, Mercurio está por transitar atrás del Sol, el día más alineado es 2025-09-12 y 2025-09-13 viernes y sábado).
 
 Alrededor del día 8 de Enero 2026, 2026-01-08, se van a alinear Marte y Venus justo detrás del Sol. Esto ya pasó por ejemplo en 1968-06-22 como se puede ver con mi simulador.
 
@@ -33,6 +33,7 @@ Hay varias de esas alineaciones por década, pero la que se viene es tan impresi
 
 ![Alineacion 1968](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_091440_1968_June.png)
 
+La década del 70 fue dura en varios países, mucha gente se cayó del sistema, se los perseguía por no emitir? Solo por eso? Por no estar loopeados/filtrados por un planeta? Quien sabe. O quizás por emitir de más?
 
 DELIRIO A CONTINUACIÓN:
 
