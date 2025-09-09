@@ -3,11 +3,11 @@
 
 Hice un simulador de órbitas de los planetas Mercurio, Venus y Marte. Acá está:
 
-[https://zenstep.com.ar/files/canvas_planets_v3.html](https://zenstep.com.ar/files/canvas_planets_v3.html)
+[https://zenstep.com.ar/files/canvas_planets_v4.html](https://zenstep.com.ar/files/canvas_planets_v4.html)
 
 o en, para bajar:
 
-[https://github.com/jmcabo/planets/releases/download/releaseV3/canvas_planets_v3.html](https://github.com/jmcabo/planets/releases/download/releaseV3/canvas_planets_v3.html)
+[https://github.com/jmcabo/planets/releases/download/releaseV4/canvas_planets_v4.html](https://github.com/jmcabo/planets/releases/download/releaseV4/canvas_planets_v4.html)
 
 y el fondo en:
 
