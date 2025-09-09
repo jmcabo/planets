@@ -3,15 +3,28 @@
 
 RATIONALE:
 Hay líos de concentración, cansancio y volumen mental de acuerdo a la posición de los planetas?
+
 No lo sé.
+
 Pero hay ciclos de 8 años en el humor y otros fenómenos, que tienen que ver con Venus, y se forma una estrella de 5 puntas si uno lo dibuja en un plano Geocéntrico, es decir, con la Tierra en el centro. Eso se llama el ciclo sinóico.
 Eso me llenó de preguntas. No era solo Venus.
+
 Bajé data de la NASA, libremente disponible, y simulé las órbitas.
+
 Encontré correlación entre estos temas, cuando Mercurio está pasando justo enfrente o justo detrás del Sol, Y A LA VEZ EQUIDISTANTE a Venus o a Marte. SOBRE TODO MERCURIO EQUIDISTANTE A VENUS. En esos casos, el simulador pone una alerta en circulito rojo semitransparente.
 
-Me ayudaron a hacer este programa las sugerencias y presiones de amigos de la comunidad.
+Me ayudaron a hacer este programa las sugerencias y presiones de amigos de la comunidad. Cada 2 años ellos experimentan lío inexplicable. Todo culmina en una semana terrible donde el lío aumenta, y luego por 3 o 4 días desaparece o reaparece. Attention Training Technique es muy útil: https://www.youtube.com/watch?v=kbTkwMJExCc
 
 Fechas en ls que pasa eso son por ejemplo 2024-09 y 2025-10 (septiembre 2024 y septiembre 2025).
+
+Qué relación existe?
+
+DELIRIO A CONTINUACIÓN:
+
+La mente ve el pasado de su robot biológico, y actúa en su presente, eligiendo a qué prestar atención. Si estamos absortos en la lectura de un libro, ignorando la radio o la lluvia, prestamos justo atención a la radio o la lluvia cuando algo nos llama la atención (un nombre) o suena un rayo.
+Quizás la única manera de retrasar una señal que va a la velocidad de la luz es loopearla por los planetas, por algo bien distante. Quizás sus núcleos de hierro hacen de espejo para la señal. Quizás por eso dicen que las mujeres son de Venus, y los hombres de Marte (y Mercurio serán los jóvenes). Quizás los bebés nacen con las mismas habilidades que necesitarían los paralíticos para empezar a moverse. Quizás esa es la naturaleza de buddha, o quizás estoy mezclando todo :) 
+Da para novela de ciencia ficción.
+En fin, daba para hacer un grafiquito. Hice este simulador con detector de equidistancias entre Venus y Marte y con detector de alineamientos tras o enfrente del Sol (baja SNR) en 2 días de programar sin parar mucho. Era fácil, la NASA provee gratis las coordenadas de los planetas en marco de referencia geocéntrico llamado J2000.
 
 
 ![Ejemplo en 2025-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_072914.png)
