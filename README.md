@@ -14,9 +14,16 @@ Me ayudaron a hacer este programa las sugerencias y presiones de amigos de la co
 Fechas en ls que pasa eso son por ejemplo 2024-09 y 2025-10 (septiembre 2024 y septiembre 2025).
 
 
+[Ejemplo en 2025-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_072914.png)
+
+
+Resumen links:
+
 Hice un simulador de órbitas de los planetas Mercurio, Venus y Marte. Acá está:
 
 [https://zenstep.com.ar/files/canvas_planets_v4.html](https://zenstep.com.ar/files/canvas_planets_v4.html)
+
+(el código fuente es el HTML mismo pero abierto en editor, no depende de librerías/bibliotecas de código)
 
 o en, para bajar:
 
