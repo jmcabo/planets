@@ -27,11 +27,11 @@ Los conos indican cercanía al Sol, y que el Sol está por alterar nuestra capac
 
 Alrededor del día 8 de Enero 2026, 2026-01-08, se van a alinear Marte y Venus justo detrás del Sol. Esto ya pasó por ejemplo en 1968-06-22 como se puede ver con mi simulador.
 
-[Alineacion 2026](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_091324.png)
+![Alineacion 2026](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_091324.png)
 
 Hay varias de esas alineaciones por década, pero la que se viene es tan impresionante como la de Junio 22 de 1968:
 
-[Alineacion 1968](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_091440_1968_June.png)
+![Alineacion 1968](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_091440_1968_June.png)
 
 
 DELIRIO A CONTINUACIÓN:
