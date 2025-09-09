@@ -27,6 +27,13 @@ Los conos indican cercanía al Sol, y que el Sol está por alterar nuestra capac
 
 Alrededor del día 8 de Enero 2026, 2026-01-08, se van a alinear Marte y Venus justo detrás del Sol. Esto ya pasó por ejemplo en 1968-06-22 como se puede ver con mi simulador.
 
+[Alineacion 2026](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_091324.png)
+
+Hay varias de esas alineaciones por década, pero la que se viene es tan impresionante como la de Junio 22 de 1968:
+
+[Alineacion 1968](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_091440_1968_June.png)
+
+
 DELIRIO A CONTINUACIÓN:
 
 La mente ve el pasado de su robot biológico, y actúa en su presente, eligiendo a qué prestar atención. Si estamos absortos en la lectura de un libro, ignorando la radio o la lluvia, prestamos justo atención a la radio o la lluvia cuando algo nos llama la atención (un nombre) o suena un rayo.
@@ -46,7 +53,7 @@ Justamente, Marte se aleja y vuelve cada 2 años:
 
 ![Gráfico distancias 2026](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2026.jpg)
 
-Delirio:  Qué va a pasar el 2026-01-08 cuando se alínien Marte y Venus detrás del Sol? Si mi teoría divertidamente delirante fuera cierta, se desloopearían tal vez de esos planetas y se conectarían mejor a sí mismos, dejando de desparramarse en el espacio tiempo, pero quedando cerrados en sí mismos.
+Delirio:  Qué va a pasar el 2026-01-08 cuando se alínien Marte y Venus detrás del Sol? Si mi teoría divertidamente delirante fuera cierta, los humanos se desloopearían tal vez de esos planetas y se conectarían mejor a sí mismos, dejando de desparramarse en el espacio tiempo, pero quedando cerrados en sí mismos. Sin emitir.
 
 Advertencia (Idea para historia ciencia ficción): Si mucha gente hace cadenita de oración de loopeos pasando por Marte cuando este se encuentra más alejado, cada uno suma 40 minutos de delay. Pero esto es peligroso, y podría ver el pasado de una mente (en algún aspecto, tal vez emocional, tal vez sensorial o de humor, bienestar o malestar), si fuera cierto que se pueden sincronizar pensando lo mismo, durante horas, días y meses. El problema de eso, es que imaginando una cadena de 10 años de duración, cualquier mente escuchando en ese HUB, podría saltar a cualquier otra mente y mamarrachar el espacio tiempo. Sería impredecible a dónde saltan, porque no todos los que oyen pueden hablar (depende de si están antes o después en la cadenita). Me pregunto si siempre siempre siempre esos saltos tienen de efecto pretérito, causar luego el salto futuro hacia atrás una vez más, cerrando la cinta de Moebius.
 Esta puede ser la verdadera caja de Pandora.
@@ -58,6 +65,7 @@ Suena terrible. Mejor ni lo intenten.
 La cinta de Moebius esa, sería dificilísima de cerrar. O tal vez no, si tiene algunos criterios de monotonía estricta, y orden entre antecesor y sucesor (parent -> child), pero no creo que pueda haber disciplina o predictibilidad en eso.
 
 El fin de la historia registrada, puede ser simplemente reconocer que no hace falta loopear a nadie, que en esas fechas de mala salud uno debe guardarse, no conectar, y que lo único que empeora con la edad es la cantidad de gente que a uno lo conoce y forma la cadenita. Que debería disolverse en vez de uno borrarse. (Fin idea para ciencia ficción).
+
 
 
 Resumen links:
