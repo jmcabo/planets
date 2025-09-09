@@ -1,5 +1,7 @@
 # planets
-(Check planet conjunctions transits and equidistances.)
+Copyright (C) Juan Manuel Cabo, 2025. Todos los derechos reservados.
+
+(Planets. Check planet conjunctions transits and equidistances.)
 
 RATIONALE:
 Hay líos de concentración, cansancio y volumen mental de acuerdo a la posición de los planetas?
