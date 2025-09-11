@@ -77,15 +77,17 @@ El fin de la historia registrada, puede ser simplemente reconocer que no hace fa
 
 Resumen links:
 
-Hice un simulador de órbitas de los planetas Mercurio, Venus y Marte. Acá está:
+Hice un simulador de órbitas de los planetas Mercurio, Venus y Marte. Acá está (versión completa desde año 1600 hasta 2649, pesado de cargar):
 
 [https://zenstep.com.ar/files/canvas_planets_v5.html](https://zenstep.com.ar/files/canvas_planets_v5.html)
 
 (el código fuente es el HTML mismo pero abierto en editor, no depende de librerías/bibliotecas de código)
+Versión corta, liviana de cargar entre 1900 y 2050:
+[https://zenstep.com.ar/files/canvas_planets_1900.html](https://zenstep.com.ar/files/canvas_planets_1900.html)
 
 o en, para bajar:
 
-[https://github.com/jmcabo/planets/releases/download/releaseV4/canvas_planets_v5.html](https://github.com/jmcabo/planets/releases/download/releaseV4/canvas_planets_v5.html)
+[https://github.com/jmcabo/planets/releases/download/releaseV5/canvas_planets_v5.html](https://github.com/jmcabo/planets/releases/download/releaseV5/canvas_planets_v5.html)
 
 y el fondo en:
 
@@ -110,6 +112,9 @@ También hice un script en python que outputea la data para el javascript. Origi
 URLS:
 Simulador:
 [https://zenstep.com.ar/files/canvas_planets_v5.html](https://zenstep.com.ar/files/canvas_planets_v5.html)
+
+Versión liviana reducida a solo 150 años:
+[https://zenstep.com.ar/files/canvas_planets_1900.html](https://zenstep.com.ar/files/canvas_planets_1900.html)
 
 
 Fondo de pantalla del simulador (mi hermana hizo curso de astrofotógrafa). Click botón derecho y guardar en mismo directorio que el html:
