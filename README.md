@@ -6,7 +6,7 @@ Planets. Check planet conjunctions transits and equidistances: [https://zenstep.
 also at:
 [https://jmcabo.github.io/planets/canvas_planets_1900.html](https://jmcabo.github.io/planets/canvas_planets_1900.html)
 
-![Ejemplo en 2024-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_093039_2024_oct_28.png)
+![Ejemplo en 2024-09](Screenshot_2025-09-09_093039_2024_oct_28.png)
 
 Tomarse todo lo que sigue con humor!! :-) :-) Es solo un programita HTML (código fuente javascript autocontenido en el html), que tardé 2 días en desarrollar (y que quise programar desde los 90s que siempre quise visualizar las órbitas en un programita gráfico y lo postponía como ejercicio gráfico.).
 
@@ -28,7 +28,7 @@ Fechas en ls que pasa eso son por ejemplo 2024-09 y 2025-10 (septiembre 2024 y s
 
 Qué relación existe?
 
-![Ejemplo en 2025-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_072914.png)
+![Ejemplo en 2025-09](Screenshot_2025-09-09_072914.png)
 
 
 Las rayas magenta entre planetas indican equidistancias dentro del umbral (0.3 AU por default, que son 2.5 minutos luz).
@@ -40,7 +40,7 @@ Alrededor del día 8 de Enero 2026, 2026-01-08, se van a alinear Marte y Venus j
 
 Hay varias de esas alineaciones por década, pero la que se viene es tan impresionante como la de Junio 22 de 1968:
 
-![Alineacion 1968](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_091440_1968_June.png)
+![Alineacion 1968](Screenshot_2025-09-09_091440_1968_June.png)
 
 La década del 70 fue dura en varios países, mucha gente se cayó del sistema, se los perseguía por no emitir? Solo por eso? Por no estar loopeados/filtrados por un planeta? Quien sabe. O quizás por emitir de más?
 
@@ -57,11 +57,11 @@ Hay algunos temas de salud física (y también de salud mental) que mucha gente 
 
 Justamente, Marte se aleja y vuelve cada 2 años:
 
-![Gráfico distancias 2024](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2024.jpg)
+![Gráfico distancias 2024](grafico_planetas_minutos_2024.jpg)
 
-![Gráfico distancias 2025](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2025.jpg)
+![Gráfico distancias 2025](grafico_planetas_minutos_2025.jpg)
 
-![Gráfico distancias 2026](https://github.com/jmcabo/planets/blob/main/grafico_planetas_minutos_2026.jpg)
+![Gráfico distancias 2026](grafico_planetas_minutos_2026.jpg)
 
 Delirio:  Qué va a pasar el 2026-01-08 cuando se alínien Marte y Venus detrás del Sol? Si mi teoría divertidamente delirante fuera cierta, los humanos se desloopearían tal vez de esos planetas y se conectarían mejor a sí mismos, dejando de desparramarse en el espacio tiempo, pero quedando cerrados en sí mismos. Sin emitir.
 
