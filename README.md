@@ -2,6 +2,8 @@
 Copyright (C) Juan Manuel Cabo, 2025. Todos los derechos reservados.
 
 Planets. Check planet conjunctions transits and equidistances: [https://zenstep.com.ar/files/canvas_planets_1900.html](https://zenstep.com.ar/files/canvas_planets_1900.html)
+also at:
+[https://jmcabo.github.io/planets/canvas_planets_1900.html](https://jmcabo.github.io/planets/canvas_planets_1900.html)
 
 ![Ejemplo en 2024-09](https://github.com/jmcabo/planets/blob/main/Screenshot_2025-09-09_093039_2024_oct_28.png)
 
