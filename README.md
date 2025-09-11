@@ -79,13 +79,13 @@ Resumen links:
 
 Hice un simulador de órbitas de los planetas Mercurio, Venus y Marte. Acá está:
 
-[https://zenstep.com.ar/files/canvas_planets_v4.html](https://zenstep.com.ar/files/canvas_planets_v4.html)
+[https://zenstep.com.ar/files/canvas_planets_v5.html](https://zenstep.com.ar/files/canvas_planets_v5.html)
 
 (el código fuente es el HTML mismo pero abierto en editor, no depende de librerías/bibliotecas de código)
 
 o en, para bajar:
 
-[https://github.com/jmcabo/planets/releases/download/releaseV4/canvas_planets_v4.html](https://github.com/jmcabo/planets/releases/download/releaseV4/canvas_planets_v4.html)
+[https://github.com/jmcabo/planets/releases/download/releaseV4/canvas_planets_v5.html](https://github.com/jmcabo/planets/releases/download/releaseV4/canvas_planets_v5.html)
 
 y el fondo en:
 
@@ -109,7 +109,7 @@ También hice un script en python que outputea la data para el javascript. Origi
 
 URLS:
 Simulador:
-[https://zenstep.com.ar/files/canvas_planets_v3.html](https://zenstep.com.ar/files/canvas_planets_v3.html)
+[https://zenstep.com.ar/files/canvas_planets_v5.html](https://zenstep.com.ar/files/canvas_planets_v5.html)
 
 
 Fondo de pantalla del simulador (mi hermana hizo curso de astrofotógrafa). Click botón derecho y guardar en mismo directorio que el html:
@@ -130,20 +130,6 @@ Esto también está en:
 
 
 --jm
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
