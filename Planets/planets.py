@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 #Created: 2025-09-03, por JMC, basado en el answer de Stack Exchange:
+#    Old title: Plot Earth-Mars relative distance for years 2040-2050
 #    https://space.stackexchange.com/questions/41619/how-to-determine-the-distance-between-where-earth-and-mars-are-two-specific-date
 #
 
@@ -9,8 +10,6 @@
 #    python3  -m pip install --break-system-packages   -r requirements.txt
 #
 
-#Old title:
-#    Plot Earth-Mars relative distance for years 2040-2050
 
 # AWP libraries
 import spice_data  as sd
@@ -42,7 +41,20 @@ np.set_printoptions(threshold=sys.maxsize)
 
 def printPlanetDatesPerYear(planet, startYear, endYear):
     auToKm = 149597870.691
-    print("rs" + str(planet) + " = [")
+
+    if planet == 1:
+        print("var mercury1600 = [")
+    elif planet == 2:
+        print("var venus1600 = [")
+    elif planet == 4:
+        print("var mars1600 = [")
+    elif planet == 10:
+        print("var sun1600 = [")
+    elif planet == 301:
+        print("var moon1600 = [")
+    else:
+        print("rs" + str(planet) + " = [")
+
     for year in range(startYear, endYear):
         _, _, et0, et1 = getDates(year, year+1)
         SAMPLES_PER_DAY = 1
@@ -52,10 +64,11 @@ def printPlanetDatesPerYear(planet, startYear, endYear):
         dists = np.linalg.norm(rs, axis = 1) / 149.6e6
         distsAU = [d / auToKm for d in dists]
         ts    = (ets - et0) / (3600 * 24 * 365.0) + year
-        for i in range(0, len(rs)-1):
-            print("    [" + str(ts[i]) + ", " + str(rs[i][0] / auToKm) + ", "
+        #debug: print("    [" + str(ts[i]) + ", " + str(rs[i][0] / auToKm) + ", "
+        for i in range(0, len(rs)):
+            print("    [\"" + spice.et2utc(ets[i], 'ISOC', 3)[:10] + "\", " + str(rs[i][0] / auToKm) + ", "
                   + str(rs[i][1] / auToKm) + ", " + str(rs[i][2] / auToKm) + "],")
-    print("]")
+    print("];")
     print("")
 
 
@@ -111,7 +124,12 @@ if __name__ == '__main__':
     #ts4, marsMinusVenus = getPlotDataSubtract(4, 2, startYear, et0, et1)
     #ts5, marsMinusMercury = getPlotDataSubtract(4, 1, startYear, et0, et1)
     #ts6, venusMinusMercury = getPlotDataSubtract(2, 1, startYear, et0, et1)
-    printPlanetDatesPerYear(4, 1600, 2650)
+
+    printPlanetDatesPerYear(2, 1600, 2650)     #venus
+    printPlanetDatesPerYear(10, 1600, 2650)    #sun
+    printPlanetDatesPerYear(301, 1600, 2650)   #moon
+    printPlanetDatesPerYear(1, 1600, 2650)     #mercury
+    printPlanetDatesPerYear(4, 1600, 2650)     #mars
 
     #print(rsMars)   #debug
 
