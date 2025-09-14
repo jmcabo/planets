@@ -82,7 +82,7 @@ Resumen links:
 
 Hice un simulador de órbitas de los planetas Mercurio, Venus y Marte. Acá está (versión completa desde año 1600 hasta 2649, pesado de cargar):
 
-[https://zenstep.com.ar/files/canvas_planets_v8.html](https://zenstep.com.ar/files/canvas_planets_v8.html)
+[https://zenstep.com.ar/files/canvas_planets_v9.html](https://zenstep.com.ar/files/canvas_planets_v9.html)
 
 (el código fuente es el HTML mismo pero abierto en editor, no depende de librerías/bibliotecas de código)
 Versión corta, liviana de cargar entre 1900 y 2050:
@@ -90,7 +90,7 @@ Versión corta, liviana de cargar entre 1900 y 2050:
 
 o en, para bajar:
 
-[https://github.com/jmcabo/planets/releases/download/releaseV8/canvas_planets_v8.html](https://github.com/jmcabo/planets/releases/download/releaseV8/canvas_planets_v8.html)
+[https://github.com/jmcabo/planets/releases/download/releaseV8/canvas_planets_v9.html](https://github.com/jmcabo/planets/releases/download/releaseV8/canvas_planets_v9.html)
 
 y el fondo en:
 
@@ -114,7 +114,7 @@ También hice un script en python que outputea la data para el javascript. Origi
 
 URLS:
 Simulador:
-[https://zenstep.com.ar/files/canvas_planets_v8.html](https://zenstep.com.ar/files/canvas_planets_v8.html)
+[https://zenstep.com.ar/files/canvas_planets_v9.html](https://zenstep.com.ar/files/canvas_planets_v9.html)
 
 Versión liviana reducida a solo 150 años:
 [https://zenstep.com.ar/files/canvas_planets_1900.html](https://zenstep.com.ar/files/canvas_planets_1900.html)
